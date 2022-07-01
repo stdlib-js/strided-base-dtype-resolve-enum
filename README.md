@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/strided-base-dtype-resolve-enum
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-resolve = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.resolve;
-})();
-</script>
+var resolve = require( '@stdlib/strided-base-dtype-resolve-enum' );
 ```
 
 #### resolve( dtype )
@@ -107,13 +105,8 @@ var v = resolve( 'beep' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var resolve = require( '@stdlib/strided-base-dtype-resolve-enum' );
 
 var v = resolve( 'float64' );
 // returns <number>
@@ -138,11 +131,6 @@ v = resolve( 'uint16' );
 
 v = resolve( 'uint8' );
 // returns <number>
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -230,6 +218,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/tree/deno
 [umd-url]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/tree/umd
 [esm-url]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/tree/esm
+[branches-url]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-dtype-resolve-enum/main/LICENSE
 
