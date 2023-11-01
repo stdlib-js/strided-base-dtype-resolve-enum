@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,65 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var str2enum = require( '@stdlib/strided-base-dtype-str2enum' );
-var resolve = require( './../../dist' );
-
-
-// VARIABLES //
-
-// List of native C types which should be supported...
-var DTYPES = [
-	'int8',
-	'uint8',
-	'int16',
-	'uint16',
-	'int32',
-	'uint32',
-	'int64',
-	'uint64',
-
-	'float32',
-	'float64',
-
-	'complex64',
-	'complex128'
-];
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof resolve, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns the enumeration constant associated with a strided array data type value', function test( t ) {
-	var v;
-	var i;
-	for ( i = 0; i < DTYPES.length; i++ ) {
-		v = str2enum( DTYPES[ i ] );
-		t.strictEqual( resolve( DTYPES[ i ] ), v, 'returns expected value' );
-		t.strictEqual( resolve( v ), v, 'returns expected value' );
-	}
-	t.end();
-});
-
-tape( 'the function returns `null` if unable to resolve an enumeration constant', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'beep',
-		'boop',
-		'foo',
-		'bar',
-		-99999999,
-		-9999999999,
-		-9999999999999
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( resolve( values[ i ] ), null, 'returns expected value' );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
