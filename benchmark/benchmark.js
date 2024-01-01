@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isInteger = require( '@stdlib/assert-is-integer' ).isPrimitive;
 var str2enum = require( '@stdlib/strided-base-dtype-str2enum' );
 var pkg = require( './../package.json' ).name;
