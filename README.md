@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@esm/index.mjs';
+import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@v0.2.2-esm/index.mjs';
 ```
 
 #### resolve( dtype )
@@ -106,7 +106,7 @@ var v = resolve( 'beep' );
 <body>
 <script type="module">
 
-import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@esm/index.mjs';
+import resolve from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-enum@v0.2.2-esm/index.mjs';
 
 var v = resolve( 'float64' );
 // returns <number>
