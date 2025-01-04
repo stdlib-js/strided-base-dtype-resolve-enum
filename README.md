@@ -162,6 +162,12 @@ v = resolve( 'uint8' );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/dtype-resolve-str`][@stdlib/strided/base/dtype-resolve-str]</span><span class="delimiter">: </span><span class="description">return the data type string associated with a supported strided array data type value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -192,7 +198,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -237,6 +243,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/strided-base-dtype-resolve-enum/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-dtype-resolve-enum/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/dtype-resolve-str]: https://github.com/stdlib-js/strided-base-dtype-resolve-str
+
+<!-- </related-links> -->
 
 </section>
 
