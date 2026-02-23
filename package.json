@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided-base-dtype-enum2str": "^0.2.2",
+    "@stdlib/strided-base-dtype-enum2str": "^0.2.3",
     "@stdlib/strided-base-dtype-str2enum": "^0.2.3"
   },
   "devDependencies": {
@@ -45,7 +45,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
