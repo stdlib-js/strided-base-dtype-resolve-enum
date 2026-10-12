@@ -127,6 +127,9 @@ var v = resolve( 'float64' );
 v = resolve( 'float32' );
 // returns <number>
 
+v = resolve( 'float16' );
+// returns <number>
+
 v = resolve( 'int32' );
 // returns <number>
 

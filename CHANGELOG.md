@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-09)
+## Unreleased (2026-10-12)
+
+<section class="features">
+
+### Features
+
+-   [`b594a74`](https://github.com/stdlib-js/stdlib/commit/b594a749b76d0b4fd62eea92f6f33689ea24eb5c) - add float16 support to `strided/base/*` [(#15909)](https://github.com/stdlib-js/stdlib/pull/15909)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`b594a74`](https://github.com/stdlib-js/stdlib/commit/b594a749b76d0b4fd62eea92f6f33689ea24eb5c) - **feat:** add float16 support to `strided/base/*` [(#15909)](https://github.com/stdlib-js/stdlib/pull/15909) _(by Gururaj Gurram)_
 -   [`f7304bd`](https://github.com/stdlib-js/stdlib/commit/f7304bd6d7ffd88df213dff3b3ca5d380443dcfc) - **bench:** refactor to use string interpolation in `@stdlib/strided-base` [(#11449)](https://github.com/stdlib-js/stdlib/pull/11449) _(by Uday Kakade, Karan Anand)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Gururaj Gurram
 -   Karan Anand
 -   Uday Kakade
 
